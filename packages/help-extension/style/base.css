@@ -55,7 +55,7 @@
 
 .jp-About-externalLinks > .jp-Button-flat,
 .jp-About-externalLinks > .jp-Button-flat:hover {
-  color: var(--jp-content-link-color);
+  color: var(--jp-content-link-hover-color);
 }
 
 .jp-About-copyright {

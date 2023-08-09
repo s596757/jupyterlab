@@ -138,7 +138,7 @@
 }
 
 .Toastify__toast-body a:hover {
-  color: var(--jp-content-link-color);
+  color: var(--jp-content-link-hover-color);
   text-decoration: underline;
 }
 
