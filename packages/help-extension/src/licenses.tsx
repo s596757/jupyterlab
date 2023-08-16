@@ -514,7 +514,7 @@ export namespace Licenses {
         <div>
           <label>
             <strong className={FILTER_SECTION_TITLE_CLASS}>
-              {trans.__('Filter Licenses By')}
+              {trans.__('Filter Licenses By ')}
             </strong>
           </label>
           <ul>

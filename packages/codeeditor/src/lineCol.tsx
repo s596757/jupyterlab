@@ -106,6 +106,7 @@ class LineFormComponent extends React.Component<
           >
             <input
               type="text"
+              aria-labelledby='Line Column form'
               className="jp-lineFormInput"
               onChange={this._handleChange}
               onFocus={this._handleFocus}

@@ -451,7 +451,7 @@ export class PluginList extends ReactWidget {
         <FilterBox
           updateFilter={this.setFilter}
           useFuzzyFilter={false}
-          placeholder={trans.__('Search…')}
+          placeholder={trans.__('Search plugin list')}
           forceRefresh={false}
           caseSensitive={false}
           initialQuery={this._query}
