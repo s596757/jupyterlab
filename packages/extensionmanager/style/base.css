@@ -184,7 +184,7 @@
 
 .jp-extensionmanager-entry-name a:link {
   color: var(--jp-content-link-color);
-  text-decoration:none
+  text-decoration: none;
 }
 
 .jp-extensionmanager-entry-name a:visited {

@@ -50,7 +50,7 @@ export interface IFilterBoxProps {
 
   /**
    * Whether to use the fuzzy filter.
-   */  useFuzzyFilter: boolean;
+   */ useFuzzyFilter: boolean;
 }
 
 /**
@@ -188,12 +188,12 @@ export const FilterBox = (props: IFilterBoxProps): JSX.Element => {
   return (
     <InputGroup
       className="jp-FilterBox"
-      aria-labelledby='Filter Box'
+      aria-labelledby="Filter Box"
       inputRef={props.inputRef}
       type="text"
       disabled={props.disabled}
       rightIcon="ui-components:search"
-      placeholder="Search Extension Manager"
+      placeholder={props.placeholder}
       onChange={handleChange}
       value={filter}
     />

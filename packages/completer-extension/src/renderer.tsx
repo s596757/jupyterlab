@@ -63,7 +63,7 @@ export function renderAvailableProviders(props: FieldProps): JSX.Element {
                 <div className="inputFieldWrapper">
                   <input
                     className="form-control"
-                    aria-labelledby='Form control'
+                    aria-labelledby="Form control"
                     type="number"
                     value={settingValue[key]}
                     onChange={e => {
