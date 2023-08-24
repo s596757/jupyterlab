@@ -14,17 +14,15 @@ const NOTEBOOK_FOOTER_CLASS = 'jp-Notebook-footer';
  * A footer widget added after the last cell of the notebook.
  */
 export class NotebookFooter extends Widget {
-  /**
-   * Construct a footer widget.
+  /**   * Construct a footer widget.
    */
   constructor(protected notebook: Notebook) {
     super({ node: document.createElement('button') });
     const trans = notebook.translator.load('jupyterlab');
     this.addClass(NOTEBOOK_FOOTER_CLASS);
-    this.node.setAttribute('role', 'contentinfo')
-    this.node.innerText = trans.__('Click to add a cell.');
+    super.node.setAttribute('role', 'contentinfo');
+    super.node.title=trans.__('Click to add a cell.');
   }
-
   /**
    * Handle incoming events.
    */
