@@ -336,8 +336,10 @@ export class LabShell extends Widget implements JupyterFrontEnd.IShell {
     const headerPanel = (this._headerPanel = new BoxPanel());
     const menuHandler = (this._menuHandler = new Private.PanelHandler());
     menuHandler.panel.node.setAttribute('role', 'navigation');
+    menuHandler.panel.node.setAttribute("aria-label", "Notebook Menu")
     const topHandler = (this._topHandler = new Private.PanelHandler());
-    topHandler.panel.node.setAttribute('role', 'banner');
+    topHandler.panel.node.setAttribute('role', 'navigation');
+    topHandler.panel.node.setAttribute("aria-label", "Notebook Menu")
     const bottomPanel = (this._bottomPanel = new BoxPanel());
     bottomPanel.node.setAttribute('role', 'contentinfo');
     const hboxPanel = new BoxPanel();
